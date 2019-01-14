@@ -3,7 +3,7 @@ from flask_restful import Resource
 
 class DemoResource(Resource):
     def get(self):
-        return {'data': 'demo'}
+        return {'data': 'jenkies-yangshuyu'}
 
     def post(self):
         self.get()
